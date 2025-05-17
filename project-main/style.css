@@ -1,0 +1,119 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0, 0, 0, 0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.par{
+    color: aquamarine;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+ul li{
+    list-style:none;
+    margin-right: 30px;
+    margin-top: 7px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: gold;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: greenyellow;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:rgb(0, 255, 242);
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: wheat;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: wheat;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: wheat;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: wheat;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke:wheat;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+
+}

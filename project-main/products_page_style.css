@@ -1,0 +1,182 @@
+body{
+ text-align:center;
+
+
+}
+.controller_products{
+    color :greenyellow;
+}
+.keyboard_products{
+color:aqua;
+}
+.mouse_products{
+    color:orangered;
+}
+.headset_products{
+    color:goldenrod;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i0.wp.com/wallpaperaccess.com/full/712990.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .navigation ul{
+    list-style: none;
+    background: #008b84;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .navigation li{
+    display: inline-block;
+  }
+  
+  .navigation a{
+    text-decoration: none;
+    color: #F0FFFF;
+    width: 150px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover{
+    background: #000000;
+  }
+  
+  #controller_products{
+    text-align: center;
+    color: #F0F8FF;
+    font-style: oblique;
+  }
+  
+  #controller_products h1{
+    text-decoration: underline;
+  }
+  
+  #controllers{
+    border-collapse: collapse;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #controllers th{
+    text-decoration-line: none;
+  }
+  
+  #controllers td, #controllers th{
+    padding: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 3px solid #e60000;
+    border-color: #008b84;
+    background-color: inherit;
+    text-align: center;
+    color: wheat;
+  }
+  
+  #keyboard_products{
+    text-align: center;
+    color: #F0F8FF;
+    font-style: oblique;
+  }
+  
+  #keyboard_products h1{
+    text-decoration: none;
+  }
+  
+  #keyboards{
+    border-collapse: collapse;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #keyboards th{
+    text-decoration-line: none;
+  }
+  
+  #keyboards td, #keyboards th{
+    padding: 7px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 3px solid #ddd;
+    border-color:#008b84;
+    background-color: inherit;
+    text-align: center;
+    color: wheat;
+  }
+  
+  #mouse_products{
+    text-align: center;
+    color: #F0F8FF;
+    font-style: oblique;
+  }
+  
+  #mouse_products h1{
+    text-decoration: none;
+  }
+  
+  #mice{
+    border-collapse: collapse;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #mice th{
+    text-decoration-line: none;
+  }
+  
+  #mice td, #mice th{
+    padding: 7px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 3px solid #ddd;
+    border-color:#008b84;
+    background-color: inherit;
+    text-align: center;
+    color:wheat;
+  }
+  #headset_products{
+    text-align: center;
+    color: #F0F8FF;
+    font-style: oblique;
+  }
+  
+  #headset_products h1{
+    text-decoration: none;
+  }
+  
+  #headset{
+    border-collapse: collapse;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #headsetth{
+    text-decoration-line: none;
+  }
+  
+  #headset td, #headset th{
+    padding: 7px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 3px solid #ddd;
+    border-color:#008b84;
+    background-color: inherit;
+    text-align: center;
+    color: wheat;
+  }
